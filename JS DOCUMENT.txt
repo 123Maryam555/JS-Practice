@@ -1,0 +1,131 @@
+JAVASCRIPT--client site scripting languages
+--event based programming lang..
+
+
+-right way                                           -wrong way
+.firstname                                            .first name
+.first_name                                           .99firstname   
+.first-name                                          
+.firstName                                             
+.firstname99    
+
+*data types:
+- var x = "hello"}type of value is 'data type'
+.different types of data types
+.with""}string
+.without ""}number
+.when your values are true/false } boolean
+.x=["html","css","js"]---}array/object
+.x={first:"jane",last:"doe"};--]object
+.x= null;}--null
+.x;--}undefined
+
+*OPERATORS:(the use of operators: when your variable's data type in number  )
++         addition
+-         subtraction
+*         multiplication
+**        exponentation
+/         division
+%          modulud/remainder
+++        increment(adding a number)
+--        decrement(subtracting the number)
+
+3-MARCH-2020
+operator           description
+ ==                 equal to         
+ ===                equal value and equal type          
+ !=                 not equal            
+ !==                not equal value or not wqual type             
+ >                  greater than           
+ <                  less than
+ >=                 greater than or equal to
+<=                  les than or equal to
+
+-LOGICAL OPERATORS
+OPERATOR           NAME
+&&                 logical AND
+||                 logical OR
+!                  logical NOT
+
+
+SWITCH (expression) {
+case condition 1: statement(s)
+break;
+
+case condition 2: statement(s)
+break;
+
+case condition 3: statement(s)
+break; 
+
+default:statement(s)
+} 
+
+*we can also use comparision operator in switch..
+
+CONFIRM BOX:
+   *This box work like alert 
+   *it can ask you a question in yes/no
+                       
+                         
+//FUNCTIONS
+
+document.write("wow you are");
+document.write("<br>");
+document.write("greater");
+
+...
+...
+...
+
+document.write("wow you are");
+document.write("<br>");
+document.write("greater");
+
+...
+...
+...
+function ABC{
+document.write("wow you are");
+document.write("<br>");
+document.write("greater");
+
+}
+*when you can write these lines multiple of times then you can simply write
+ ABC(); every time you just write this and it means it can call your lines..
+
+//FUNCTIONS WITH PARAMETERS;
+
+var a = 10;
+var b = 20;
+document.write(a+b);
+...
+...
+...
+var a = 40;
+var b = 30;
+document.write(a+b);
+...
+...
+function sum(a,b){
+   document.write(a+b);
+}
+sum(20,50);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          
